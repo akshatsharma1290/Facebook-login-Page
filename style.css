@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+    color:#5F7161;
+}
+body{
+    background-color: #ECECEC;
+}
+.main-section{
+    display: flex;
+    align-items: center;
+    
+}
+.right-container{
+    top: 220px;
+    position: relative;
+    left: 200px;
+    
+   
+}
+.headline{
+    color: #1363DF;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.sub-headline{
+    letter-spacing: 0.5px;
+    
+}
+.left-container{
+    height: 60vh;
+    width: 33vw;
+    background-color: white;
+    position: absolute;
+    right: 132px;
+    top: 89px;
+    box-shadow:1px 5px 9px 0px gray;
+    padding: 24px;
+text-align: center;
+}
+
+
+.left-container input{
+    width: 30vw;
+height: 8vh;
+margin-bottom: 18px;
+padding: 0 10px;
+border: 2px solid blue;
+
+}
+input:nth-child(3){
+    background-color: #1877f2;
+    color: white;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.left-container .fa{
+    color: #4169E1;
+    text-decoration: none;
+    
+}
+.left-container .fa:hover{
+    text-decoration: underline 	#4169E1;
+}
+hr{
+    margin: 10px 0;
+    color:#A2B29F;
+
+}
+.btn{
+    background-color: #42b72a;
+text-decoration: none;
+margin-top: 30px;
+width: 15vw;
+padding: 15px;
+display: inline-block;
+color: white;
+}
+.btn:hover{
+    background-color: #0cbb0c;
+
+}
+.copyright{
+    margin-top: 90px;
+}
